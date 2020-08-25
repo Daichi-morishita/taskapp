@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		E5DE18C324F248DC00A6DEF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5DE18C124F248DC00A6DEF5 /* Main.storyboard */; };
 		E5DE18C524F248DD00A6DEF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5DE18C424F248DD00A6DEF5 /* Assets.xcassets */; };
 		E5DE18C824F248DD00A6DEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5DE18C624F248DD00A6DEF5 /* LaunchScreen.storyboard */; };
+		E5FDFB7324F52D0A00CE118D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDFB7224F52D0A00CE118D /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E5DE18C424F248DD00A6DEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5DE18C724F248DD00A6DEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5DE18C924F248DD00A6DEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5FDFB7224F52D0A00CE118D /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		F5AB1ACBE8F3864FFF7CE8CE /* Pods_taskapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,7 +52,6 @@
 				87A0734533F8CAB5F89A28AF /* Pods-taskapp.debug.xcconfig */,
 				C4E22D72A6E3FDB1B7BA51A1 /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -76,10 +77,11 @@
 			isa = PBXGroup;
 			children = (
 				E5DE18B924F248DC00A6DEF5 /* AppDelegate.swift */,
-				E5DE18BB24F248DC00A6DEF5 /* SceneDelegate.swift */,
 				E5DE18BD24F248DC00A6DEF5 /* FirstViewController.swift */,
 				E566CD1624F3A83800F21104 /* InputViewController.swift */,
+				E5FDFB7224F52D0A00CE118D /* Task.swift */,
 				E5DE18C124F248DC00A6DEF5 /* Main.storyboard */,
+				E5DE18BB24F248DC00A6DEF5 /* SceneDelegate.swift */,
 				E5DE18C424F248DD00A6DEF5 /* Assets.xcassets */,
 				E5DE18C624F248DD00A6DEF5 /* LaunchScreen.storyboard */,
 				E5DE18C924F248DD00A6DEF5 /* Info.plist */,
@@ -212,6 +214,7 @@
 			files = (
 				E566CD1724F3A83800F21104 /* InputViewController.swift in Sources */,
 				E5DE18BE24F248DC00A6DEF5 /* FirstViewController.swift in Sources */,
+				E5FDFB7324F52D0A00CE118D /* Task.swift in Sources */,
 				E5DE18BA24F248DC00A6DEF5 /* AppDelegate.swift in Sources */,
 				E5DE18BC24F248DC00A6DEF5 /* SceneDelegate.swift in Sources */,
 			);
